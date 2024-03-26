@@ -1,6 +1,6 @@
 - name: Modify README.md
   uses: adhifakhreza/agh@main
   with:
-    path: README.md
+    path: customfilter.txt
     body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}",
     overwrite: 'true'
