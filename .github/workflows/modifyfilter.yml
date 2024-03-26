@@ -1,7 +1,6 @@
 - name: Modify README.md
-  uses: adhifakhreza/agh@main
+  uses: jaywcjlove/github-action-modify-file-content@main
   with:
-    path: customfilter.txt
-		body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}",
-		overwrite: 'true'
-		
+    path: adhifakhreza/agh/customfilter.txt
+    body: "overwrite file content {{date:YYYY-MM-DD HH:mm:ss}}",
+    overwrite: 'true'
